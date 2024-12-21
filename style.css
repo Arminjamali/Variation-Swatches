@@ -1,0 +1,91 @@
+
+.color-radio-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.color-radio-label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.color-circle:hover {
+    border-color: #333;
+}
+
+.color-radio-label input[type="radio"]:checked + .color-circle {
+    border-color: #000;
+    transform: scale(1.1);
+}
+.color-picker-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.color-picker-label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.color-circle:hover {
+    border-color: #333;
+}
+
+.color-picker-label input[type="radio"]:checked + .color-circle {
+    border-color: #000;
+    transform: scale(1.1);
+}
+.size-picker-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.size-picker-label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.size-circle {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.size-circle:hover {
+    border-color: #333;
+    background-color: #f9f9f9;
+}
+
+.size-picker-label input[type="radio"]:checked + .size-circle {
+    border-color: #000;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    transform: scale(1.05);
+}
