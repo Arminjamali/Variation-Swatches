@@ -2,6 +2,8 @@
 
 This project provides a custom solution to add, store, and display color and size attributes in WooCommerce products without relying on plugins like "Variation Swatches for WooCommerce."
 
+![Custom WooCommerce Swatches](https://github.com/Arminjamali/Variation-Swatches/blob/main/screen.jpg)
+
 ## Features
 
 - Adds custom color and size attributes to WooCommerce products.
